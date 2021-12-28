@@ -29,8 +29,8 @@ export function Home() {
     return;
 
     idExists.done = !idExists.done;
-
    setTasks(updateTask);
+   console.log(tasks);
   }
 
   function handleRemoveTask(id: number) {
