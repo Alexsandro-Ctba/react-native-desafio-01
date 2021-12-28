@@ -43,7 +43,7 @@ export function TodoInput({ addTask }: TodoInputProps) {
       </TouchableOpacity>
     </View>
   )
-}
+ }
 
 const styles = StyleSheet.create({
   inputContainer: {
